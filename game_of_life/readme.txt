@@ -1,0 +1,4 @@
+This program plays "the game of life". Essentially, the game is a state-based game which updates "live" and "dead" cells on a 2D array that is represented by a 1D array. 
+If a cell is "alive" and has less than 2 or more than 3 "live" neighbours, it dies. If a cell is "dead" and has exactly 3 "live neighbours", it comes alive. All other cells remain the same.
+My team wrote all of updateBoard.c, which contains functions countLiveNeighbour (counts number of "live" neighbour cells on current state), and updateBoard (which modifies the board according to the above conditions)
+This was a project I completed for ECE220.
